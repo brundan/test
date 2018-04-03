@@ -1,52 +1,45 @@
 ---
 title: Template Chapter 1
 description: This is a template chapter.
----
-## Wiederholung wesentlicher Inhalte
 
-```yaml
-type: NormalExercise
-lang: r
-xp: 100
-skills: 1
-key: 641f650cf3
-```
+--- type:NormalExercise lang:r xp:10 skills:1 key:a57baa03e8
+##Beispiel: Vektoren
+
 
 bla
 
-`@instructions`
-- bla
+*** =instructions
 
-`@hint`
+bla
+
+*** =hint 
+
+
 xxx
 
-`@pre_exercise_code`
+*** =pre_exercise_code
+
 ```{r}
 library(dplyr)
-
-
 ```
 
-`@sample_code`
+
+*** =sample_code
+
 ```{r}
 # alle benötigten Objekte sind bereits eingelesen
 daten_auswahl1 <- ___
 
-daten_auswahl2 <- ___
-
-daten_auswahl3 <- ___
-
-daten_auswahl4 <- ___
-
-daten_auswahl5 <- ___
 ```
 
-`@solution`
+*** =solution
+
 ```{r}
 daten_auswahl1 <- 1
 ```
 
-`@sct`
+*** =sct
+
 ```{r}
 test_object("daten_auswahl1") 
 test_error()
